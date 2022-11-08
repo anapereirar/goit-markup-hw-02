@@ -72,7 +72,14 @@ body {
 .menu .item a:hover,
 .header .contact-info li a:hover,
 .menu .item a.actual,
-.footer_container .contact-info-footer a:hover {
+.footer_container .contact-info-footer a:hover, 
+
+.menu .item a:focus,
+.header .contact-info li a:focus,
+.menu .item a.actual,
+.footer_container .contact-info-footer a:focus 
+
+{
   color: #2196f3;
 }
 
@@ -130,6 +137,12 @@ body {
   margin-top: 30px;
   padding: 10px 32px;
   cursor: pointer;
+  transition: all 0.7s;
+}
+.button-service:hover, .button-service:focus{
+  background-color: #f5f4fa;
+  color:#2196f3;
+  transition: all 0.7s;
 }
 
 /* Sección Descripción */
@@ -281,7 +294,7 @@ body {
 }
 
 .button-portfolio:hover,
-.button-portfolio.actual {
+.button-portfolio.actual, .button-portfolio:focus {
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
