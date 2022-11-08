@@ -163,6 +163,7 @@ body {
 .sub-section h2 {
   text-align: center;
   font-size: 36px;
+  margin-top: 40px;
 }
 
 .sub-section .images {
@@ -170,6 +171,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .sub-section .images li {
